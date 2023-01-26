@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: sans-serif;
+  min-height: 100%;
+  position: relative;
+}
+body{
+  background-color: burlywood;
+  color: black;
+  margin-bottom: 100px;
+}
+
+/* header */
+header{
+  background-color: rgb(183, 116, 69);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+}
+header h1{
+  margin-bottom: 1rem;
+  font-size: 2em;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* .btn */
+.btn{
+  background-color:rgb(183, 116, 69);
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem 1.2rem;
+  font-size: 1em;
+  cursor: pointer;
+  border: solid 0.2rem rgb(183, 116, 69);
+}
+
+/* .message-board */
+.message-board{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message-board .btn-new{
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.message-board .message-card{
+  background-color: rgb(183, 116, 69);
+  border: solid 0.2rem black;
+  width: 40rem;
+  border-radius: 0.5rem;
+  margin: 0.2rem 0rem;
+  padding: 1rem;
+}
+.message-board .message-card p{
+  margin: 0.5rem 0rem;
+  font-size: 0.9em;
+  font-weight: bold;
+  font-style: italic;
+}
+.message-board .message-card > span{
+  font-size: 0.8em;
+}
+
+/* form */
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+form .name, form .message{
+  width: 100%;
+}
+form label{
+  font-weight: bold;
+}
+form input[type="text"], form textarea{
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  font-size: 1em;
+  margin: 0.5rem 0rem;
+  border: solid 0.1rem black;
+}
+form textarea{
+  resize: vertical;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  min-height: 3.5rem;
+  max-height: 15rem;
+}
+
+/* footer */
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a{
+  border: solid 0.3rem transparent;
+}
+
+/* media queries */
+@media(max-width: 769px){
+  /* .message-board */
+  .message-board .message-card{
+    width: 25rem;
+  }
+  /* form */
+  form{
+    width: 20rem;
+  }
+
+}
+@media(max-width: 426px){
+  .btn{
+      font-size: 0.9em;
+  }
+}
