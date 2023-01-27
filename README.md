@@ -4,9 +4,8 @@ A simple Node.js/Express app that uses sample filler data to present a message b
 
 ## Tech Used:
 
-[NODE BADGE](https://img.shields.io/static/v1?label=|&message=NODE.js&color=#339933&style=plastic&logo=node.js)
-[EXPRESS BADGE](https://img.shields.io/static/v1?label=|&message=EXPRESS&color=bbb111&style=plastic&logo=express)
-
+** <img src="https://img.shields.io/static/v1?label=|&message=NODE.js&color=339933&style=plastic&logo=node.js"/>
+** <img src="https://img.shields.io/static/v1?label=|&message=EXPRESS&color=bbb111&style=plastic&logo=express"/>
 
 ## Functionalities
 
