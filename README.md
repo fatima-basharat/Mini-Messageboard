@@ -2,6 +2,7 @@
 
 A simple Node.js/Express app that uses sample filler data to present a message board and the ability to add new messages to it.
 
+<img width="1440" alt="messageboard" src="https://github.com/fatima-basharat/Mini-Messageboard/assets/117535181/c3c24e91-f38a-4111-862d-ca1973e58712">
 
 ## Tech used:
 
