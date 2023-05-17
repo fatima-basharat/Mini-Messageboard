@@ -2,7 +2,17 @@
 
 A simple Node.js/Express app that uses sample filler data to present a message board and the ability to add new messages to it.
 
-## Tech Used: ![EXPRESS BADGE](https://img.shields.io/static/v1?label=|&message=NODE.js&color=339933&style=plastic&logo=node.js)![NODE BADGE](https://img.shields.io/static/v1?label=|&message=EXPRESS&color=bbb111&style=plastic&logo=express)
+
+## Tech used:
+
+<div style="display: flex; flex-direction: row;" align=left >
+    <a href="https://nodejs.org/en/docs/" target="_blank">
+    <img src="https://img.shields.io/static/v1?&style=flat&logo=nodedotjs&logoColor=white&labelColor=AD9D90&label=&message=NODE&color=AD9D90"/>
+  </a>
+  <a href="https://expressjs.com/" target="_blank">
+    <img src="https://img.shields.io/static/v1?&style=flat&logo=express&logoColor=white&labelColor=AD9D90&label=&message=EXPRESS&color=AD9D90"/>
+  </a>
+</div>  
 
 ## Functionalities
 
